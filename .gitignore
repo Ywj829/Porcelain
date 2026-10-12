@@ -1,0 +1,17 @@
+# 大型媒体素材暂不入库，避免超过 GitHub 单文件与仓库大小限制。
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.ico
+
+# 本地运行日志与临时文件
+*.log
+_checklist_extract.json
+
+# 不要上传证书私钥
+project/certs/key.pem
